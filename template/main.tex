@@ -1,0 +1,124 @@
+\documentstyle[a4j,12pt,epsf,ascmac]{inutakelab}
+\topmargin=-1cm
+\textwidth=16cm
+\textheight=23cm
+%\footheight=1cm
+%\oddsidemargin=-0.5cm
+\parindent=1zw
+
+\newcommand{\ncd}{\newcommand}
+\ncd{\ds}{\displaystyle}
+\ncd{\pt}{\partial}
+\ncd{\vct}[1]{\mbox{\boldmath${#1}$}}
+\ncd{\rot}[1]{\nabla \times \vct{#1}}
+\ncd{\diver}[1]{\nabla \cdot \vct{#1}}
+\ncd{\ep}{\epsilon_0}
+\ncd{\myu}{\mu_0}
+\ncd{\dfrac}[2]{\ds \frac{#1}{#2}}
+\ncd{\ow}{\omega}
+\ncd{\e}[1]{exp \{ #1 \}}
+\ncd{\dt}[1]{\dfrac{d{#1}}{dt}}
+\ncd{\tensor}[1]{\stackrel{\leftrightarrow}{#1}}
+
+\renewcommand{\thefigure}{\arabic{section}--\arabic{figure}}
+\renewcommand{\thetable}{\arabic{section}--\arabic{table}}
+\renewcommand{\theequation}{\arabic{section}--\arabic{equation}}
+\renewcommand{\thefootnote}{(\arabic{footnote})}
+\pagestyle{plain}
+\def\thefootnote{\fnsymbol{footnote}}
+
+%%%%%%    TEXT START    %%%%%%
+\begin{document}
+\baselineskip=8mm
+\input{title.tex}
+\renewcommand{\thepage}{\roman{page}}
+\setcounter{page}{1}
+\newpage
+
+%<目次>
+\tableofcontents
+\clearpage
+
+%<記号表>
+\section*{記号表}
+\addcontentsline{toc}{section}{記号表}
+\input{Kigou.tex}
+
+\clearpage
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+
+\setcounter{section}{1}
+\setcounter{subsection}{0}
+\setcounter{figure}{0}
+\section*{{\bf 第1章　はじめに}}
+\addcontentsline{toc}{section}{第1章 はじめに}
+\input{Hajimeni.tex}
+\clearpage
+
+\setcounter{section}{2}
+\setcounter{subsection}{0}
+\setcounter{figure}{0}
+\setcounter{equation}{0}
+\section*{第2章　原理}
+\addcontentsline{toc}{section}{第2章 原理}
+\input{Genri.tex}
+\clearpage
+
+\setcounter{section}{3}
+\setcounter{subsection}{0}
+\setcounter{figure}{0}
+\setcounter{equation}{0}
+\section*{第3章　実験方法}
+\addcontentsline{toc}{section}{第3章 実験方法}
+\input{souti.tex}
+\clearpage
+
+\setcounter{section}{4}
+\setcounter{subsection}{0}
+\setcounter{figure}{0}
+\setcounter{equation}{0}
+\section*{第4章　実験結果}
+\addcontentsline{toc}{section}{第4章　実験結果}
+\input{kekka.tex}
+\clearpage
+
+\setcounter{section}{5}
+\setcounter{subsection}{0}
+\setcounter{figure}{0}
+\setcounter{equation}{0}
+\section*{第5章　まとめ}
+\addcontentsline{toc}{section}{第5章 まとめ}
+%\input{matome.tex}
+\clearpage
+
+%<謝辞>
+\addtocounter{section}{1}
+\setcounter{subsection}{0}
+\setcounter{figure}{0}
+\section*{謝辞}
+\addcontentsline{toc}{section}{謝辞}
+\input{SYAJI.tex}
+\clearpage
+
+%<参考文献>
+\addtocounter{section}{1}
+\setcounter{subsection}{0}
+\setcounter{figure}{0}
+%\section*{参考文献}
+\addcontentsline{toc}{section}{参考文献}
+\input{BUNKEN.tex}
+\clearpage
+
+\renewcommand{\thefigure}{A--\arabic{figure}}
+\renewcommand{\theequation}{A--\arabic{equation}}
+%<付録>
+\addtocounter{section}{1}
+\setcounter{subsection}{0}
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+\section*{付録}
+\addcontentsline{toc}{section}{付録}
+\input{FUROKU.tex}
+
+\end{document}

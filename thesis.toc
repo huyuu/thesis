@@ -1,0 +1,50 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {subsection}{\numberline {1.1}Background}{3}
+\contentsline {subsection}{\numberline {1.2}High Magnetic Fields in Space Radiation Superconducting Shields}{6}
+\contentsline {subsection}{\numberline {1.3}Difficulties of Shielding High Magnetic Fields}{8}
+\contentsline {subsection}{\numberline {1.4}Purpose of the Study}{11}
+\contentsline {subsection}{\numberline {1.5}Construction of This Thesis}{12}
+\contentsline {section}{\numberline {2}Proposal: Electromagnetic-Induction Type Magnetic Cloak using High Temperature Superconductor Tapes and Ferromagnets}{14}
+\contentsline {subsection}{\numberline {2.1}Superconductor}{15}
+\contentsline {subsubsection}{\numberline {2.1.1}Perfect Conductivity}{17}
+\contentsline {subsubsection}{\numberline {2.1.2}Meissner Effect (Perfect Diamagnetism)}{18}
+\contentsline {subsection}{\numberline {2.2}High Temperature Superconductor(HTS) Tape}{21}
+\contentsline {subsection}{\numberline {2.3}Ferromagnetism}{24}
+\contentsline {subsubsection}{\numberline {2.3.1}Sense of Magnetism}{24}
+\contentsline {subsubsection}{\numberline {2.3.2}Modern Ferromagnetic Materials}{27}
+\contentsline {subsubsection}{\numberline {2.3.3}Significant but not Apparent Difference among the ${\bm {B}}$ Field, ${\bm {H}}$ Field and ${\bm {M}}$ Field}{28}
+\contentsline {subsection}{\numberline {2.4}Conventional Magnetic Cloak}{30}
+\contentsline {subsection}{\numberline {2.5}Electromagnetic-Induction Type Magnetic Cloak}{31}
+\contentsline {section}{\numberline {3}Effectiveness of the Electromagnetic-Induction Type Magnetic Cloak}{36}
+\contentsline {subsection}{\numberline {3.1}Ability of Shielding Stable High Magnetic Fields}{37}
+\contentsline {subsubsection}{\numberline {3.1.1}Purpose}{37}
+\contentsline {subsubsection}{\numberline {3.1.2}Theory}{37}
+\contentsline {subsubsection}{\numberline {3.1.3}Method}{43}
+\contentsline {subsubsection}{\numberline {3.1.4}Result and Discussion}{45}
+\contentsline {subsubsection}{\numberline {3.1.5}Conclusion}{47}
+\contentsline {subsection}{\numberline {3.2}Shielding Ability}{49}
+\contentsline {subsubsection}{\numberline {3.2.1}Purpose}{49}
+\contentsline {subsubsection}{\numberline {3.2.2}Theory}{49}
+\contentsline {subsubsection}{\numberline {3.2.3}Method}{55}
+\contentsline {subsubsection}{\numberline {3.2.4}Result and Discussion}{57}
+\contentsline {subsubsection}{\numberline {3.2.5}Conclusion}{62}
+\contentsline {subsection}{\numberline {3.3}Effect of Ferromagnets}{63}
+\contentsline {subsubsection}{\numberline {3.3.1}Purpose}{63}
+\contentsline {subsubsection}{\numberline {3.3.2}Theory}{63}
+\contentsline {subsubsection}{\numberline {3.3.3}Method}{65}
+\contentsline {subsubsection}{\numberline {3.3.4}Result and Discussion}{67}
+\contentsline {subsubsection}{\numberline {3.3.5}Conclusion}{70}
+\contentsline {section}{\numberline {4}Optimal Construction of the Electromagnetic-Induction Type Magnetic Cloak}{71}
+\contentsline {subsection}{\numberline {4.1}Optimal Construction of the High Temperature Superconductor Windings}{72}
+\contentsline {subsubsection}{\numberline {4.1.1}Purpose}{72}
+\contentsline {subsubsection}{\numberline {4.1.2}Theory}{73}
+\contentsline {subsubsection}{\numberline {4.1.3}Method}{74}
+\contentsline {subsubsection}{\numberline {4.1.4}Result and Discussion}{77}
+\contentsline {subsubsection}{\numberline {4.1.5}Conclusion}{79}
+\contentsline {subsection}{\numberline {4.2}Optimal Position of Ferromagnets}{80}
+\contentsline {subsubsection}{\numberline {4.2.1}Purpose}{80}
+\contentsline {subsubsection}{\numberline {4.2.2}Theory}{80}
+\contentsline {subsubsection}{\numberline {4.2.3}Method}{81}
+\contentsline {subsubsection}{\numberline {4.2.4}Result and Discussion}{83}
+\contentsline {subsubsection}{\numberline {4.2.5}Conclusion}{86}
+\contentsline {section}{\numberline {5}Conclusion}{88}

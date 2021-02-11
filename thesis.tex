@@ -1,0 +1,82 @@
+% reference: http://www.yamamo10.jp/yamamoto/comp/latex/make_doc/contents/index.php
+
+% \documentclass[epsf]{article}
+\documentclass[titlepage, dvipdfmx, 12pt]{article}
+\usepackage[top=26truemm,bottom=24truemm,left=16truemm,right=16truemm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{here}
+\usepackage{bm}
+\usepackage[hiresbb]{graphicx}
+\usepackage{color}
+\usepackage{pdfpages}
+
+\title{High Magnetic Fields Shieldable Electromagnetic-Induction Type Magnetic Cloak Using High Temperature Superconductor Tapes and Ferromagnets\\
+(強磁場遮蔽に適した高温超電導体と強磁性体を用いた電磁誘導型磁気クロークの構成方法に関する研究)}
+\author{Department of Electrical Engineering, Tohoku University\\
+Applied Electrical Energy System\\
+Tsuda Laboratory\\
+B9TM2109\\
+Jiang Yuyang
+}
+\date{2020.Nov.19}
+
+\begin{document}
+\renewcommand{\figurename}{Fig.}
+\renewcommand{\tablename}{Tab.}
+% \maketitle
+% \input{./titlepage/titlepage.tex}
+\includepdf[]{./tohokuTitlePage.pdf}
+\input{./titlepage/biography.tex}
+
+\setcounter{tocdepth}{3}
+\tableofcontents
+% adjust line space
+\baselineskip=8mm
+\newpage
+
+
+\section{Introduction}
+\input{./section1Introduction/Introduction.tex}
+
+\newpage
+\section{Proposal: Electromagnetic-Induction Type Magnetic Cloak using High Temperature Superconductor Tapes and Ferromagnets}
+\input{./section2Proposal/Proposal.tex}
+
+\newpage
+\section{Effectiveness of the Electromagnetic-Induction Type Magnetic Cloak}
+\input{./section3Effectiveness/Effectiveness.tex}
+
+\newpage
+\section{Optimal Construction of the Electromagnetic-Induction Type Magnetic Cloak}
+\input{./section4Optimal/Optimal.tex}
+
+
+% \section{Experiment under 1T Environment}
+% \subsection{Purpose}
+% \subsection{Theory}
+% \subsection{Methods}
+% \subsection{Results}
+% \subsection{Discussion}
+% \subsection{Conclusion}
+
+\newpage
+\section{Conclusion}
+\input{./section5Conclusion/Conclusion.tex}
+
+\newpage
+\section*{Acknowledgments}
+\input{./Acknowledgments/Acknowledgments.tex}
+
+\end{document}
+
+
+% \begin{thebibliography}{7}
+%   \bibitem{1_1_1} N. Miura, T. Goto, K. Nakao, S. Takeyama, T. Sakakibara, T. Haruyama, T. Kikuchi, "Production of ultra-high magnetic fields and their application to solid state physics", Physica B: Condensed Matter, Volume 155, Issues 1\UTF{2013}3, Pages 23-32 (1989)
+%   \bibitem{1_1_2} Filippo Ambroglini1, Roberto Battiston2 and William J. Burger, "Evaluation of Superconducting Magnet Shield Configurations for Long Duration Manned Space Missions", Frontiers in Oncology, Vol. 6, p. 97 (2016)
+%   \bibitem{1_1_3} R. Musenich, V. Calvelli, S. Farinon, W. J. Burger, R. Battiston, "Space Radiation Superconducting Shields", Journal of Physics: Conference Series 507 032033 (2014)
+%   \bibitem{1_1_4}
+%   \bibitem{1_1_5}
+%   \bibitem{1_2_1} Francis A. Cucinotta, "Space Radiation Risks for Astronauts on Multiple International Space Station Missions", PLoS ONE 9(4): e96099 (2014)
+%
+%   \bibitem{1_10} R.Musenich et al., "Space Radiation Superconducting Shields", Journal of Physics: Conference Series 507 (2014) 032033
+% \end{thebibliography}
